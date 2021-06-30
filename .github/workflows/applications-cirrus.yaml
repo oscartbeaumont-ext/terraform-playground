@@ -3,6 +3,7 @@ name: Application > Cirrus
 on:
   push:
     paths:
+      - '.github/workflows/applications-cirrus.yaml'
       - 'applications/cirrus/**'
 
 env:
